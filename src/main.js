@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import iview from 'iview'
-import GlobalComponets from '@/components/table/index.js'
+// import GlobalComponets from '@/components/table/index.js'
+import GlobalComponets from '../dist/static/js/app.js'
+
 import 'iview/dist/styles/iview.css'
 Vue.config.productionTip = false
 
