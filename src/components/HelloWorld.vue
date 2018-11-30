@@ -1,11 +1,12 @@
 <template>
   <div class="hello">
+    <!-- <earth></earth> -->
     <my-table :columns="columns" :data="list"></my-table>
   </div>
 </template>
 
 <script>
-// import mytable from './table/table.vue'
+import earth from './earth.vue'
 export default {
   name: 'HelloWorld',
   data () {
@@ -58,7 +59,8 @@ export default {
         }
       ]
     }
-  }
+  },
+  components: {earth}
   // components: {mytable}
 }
 </script>

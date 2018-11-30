@@ -8,6 +8,7 @@
             :loading="loading"
            @on-selection-change="selectionChange"
         ></Table>
+        4444
         <Page class="page"
             :total="page.total"
             :page-size="page.pageSize"
@@ -22,6 +23,7 @@
 
 <script>
 // import iview
+import {Table, Page} from 'iview'
 export default{
   name: 'tableList',
   props: {
@@ -63,6 +65,7 @@ export default{
   data () {
     return {}
   },
+  components: {Table, Page},
   methods: {
     changePage (num) {
       this.queryData(num)
