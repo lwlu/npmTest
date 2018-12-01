@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import earth from './earth.vue'
+// import earth from './earth.vue'
 export default {
   name: 'HelloWorld',
   data () {
@@ -59,8 +59,8 @@ export default {
         }
       ]
     }
-  },
-  components: {earth}
+  }
+  // components: {earth}
   // components: {mytable}
 }
 </script>

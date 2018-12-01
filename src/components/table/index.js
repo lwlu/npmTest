@@ -1,4 +1,5 @@
 import mytable from './table.vue'
+import 'iview/dist/styles/iview.css'
 
 const myTable = {
   install: function (Vue) {
